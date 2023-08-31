@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Tulpen One', cursive;
+    background-color: black;
+}
+
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main form{
+    background-color:darkorange;
+    width:30%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label,#user,#pass,a{
+    display: block;
+}
+
+label{
+    font-size: 30px;
+}
+
+#user,#pass{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+main form div{
+  display: flex;
+  justify-content: space-between; 
+}
+
+button{
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0px;
+    background-color: chartreuse;
+    color: blue;
+}
+
+#B{
+    background-color: red;
+    color: blue;
+}
+
+
+a{
+    font-size: 25px;
+    font-weight: 200;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+a:hover{
+    color: blue;
+    font-size: 30px;
+    transition: 3s;
+}
+
+#user::placeholder{
+    color: red;
+}
+
+#pass::placeholder{
+    color: red;
+}
+
+.fa-regular.fa-face-kiss-wink-heart{
+    color:red;
+    font-size: 30px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+
+#C{
+    position: relative;
+}
+
+.fa-solid.fa-user-secret{
+    position: absolute;
+    top: 18%;
+    left: 2%;
+    color: black;
+}
+
+#D{
+    position: relative;
+}
+
+.fa-solid.fa-lock{
+    position: absolute;
+    top: 18%;
+    left: 2%;
+    color: black;
+}
