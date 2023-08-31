@@ -1,0 +1,49 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: tomato;
+}
+
+footer{
+display: flex;
+justify-content: center;
+align-items: end;
+height: 100vh;
+}
+
+footer section{
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px 40px 40px;
+}
+
+footer section ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+a:hover{
+    background-color:gold;
+    font-size: 20px;
+    transform: rotate3d(360deg);
+    transition: 2s;
+}
+
+h4{
+font-size:large;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    color:darkblue;
+}
